@@ -1,0 +1,10 @@
+{
+    "name": "optics first",
+    "scripts": {
+        "start": "concurrently \"cd client && npm start \"  \"cd server && npm start\"",
+        "postinstall": "concurrently \"cd client && npm install \"  \"cd server && npm install\""
+    },
+    "dependencies": {
+        "concurrently": "^6.2.0"
+    }
+}

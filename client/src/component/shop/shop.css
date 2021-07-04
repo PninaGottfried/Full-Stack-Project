@@ -1,0 +1,53 @@
+
+.container-Shop{
+    display: flex;
+    flex-wrap: wrap;
+    min-width: 100%;
+    /* min-height: 43vh; */
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+/* *{
+    padding: 0;
+    margin: 0; 
+    
+} */
+/* body{
+    background: #fff;
+} */
+ .box{
+    font-family: 'Quicksand', sans-serif;
+    position: fixed;
+    top: 40vh; 
+    left: 50%; 
+    transform: translate(-50%,-50%);
+}
+.box h1{
+    position: relative;
+    display: inline-block;
+    padding: 20px 40px;
+    letter-spacing: 20px;
+    text-transform: uppercase;  
+    font-size: 70px;
+    color: #000;  background: #fff;
+    mix-blend-mode: difference;
+} 
+.box::before{
+    content: '';
+    position: absolute;
+    top: 0; left: 0;
+    width: 130px;  height: 100%;
+    background: #fff;
+    animation: animate 5s infinite linear;
+}
+@keyframes animate{
+    0%{
+        left: 0;
+    }
+    50%{
+        left: calc(100% - 130px);
+    }
+    100%{
+        left: 0;
+    }
+} 

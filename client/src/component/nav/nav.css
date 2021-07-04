@@ -1,0 +1,36 @@
+
+
+.header{
+    background-image: linear-gradient(to right,rgb(230, 217, 217),aqua,aquamarine);
+    height: 25vh;
+    text-align: center;
+
+}
+.tafrit{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:grey;
+    font-size: 5vh;
+margin-top: 15vh;
+    
+}
+.tafrit:hover{
+    color:black;
+    border-bottom: black solid;
+}
+.img{
+    height: 17vh;
+    width: 15vh;
+    margin: 2vw;
+    
+
+}
+.h{
+    height: 20vh;
+    background-color: rgb(243, 231, 231);
+
+}
+
+.header > .nav{
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}

@@ -1,0 +1,83 @@
+button {
+    color: #555;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+  }
+
+  .underButtons{
+    text-align: center;
+  }
+  
+  button:hover {
+    opacity:1;
+  }
+  
+ 
+  .goBack_c, .goToHome_c {
+    width: 50%;
+    background-color: aquamarine;
+  }
+  
+  .goBack_c {
+    float: right;
+  }
+  
+  .goToHome_c {
+    float: left;
+  }
+  
+  .container {
+    
+    text-align: center;
+  }
+  
+  .modal {
+    display: none;
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.452);
+    
+  }
+  
+  .modal-content {
+    background-color: #fefefe;
+  
+  }
+  
+   
+  .close {
+  
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: turquoise;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #555;
+    cursor: pointer;
+  }
+  
+  .underButtons::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .container-Camera_Mmodal{
+    margin-right: auto;
+    margin-left: auto;
+  }

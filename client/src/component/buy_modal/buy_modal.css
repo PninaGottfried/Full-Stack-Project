@@ -1,0 +1,51 @@
+input[type=file] {
+    display: none;
+}
+
+.invalid{
+color: rgb(224, 0, 0);
+}
+
+.bi-upload{
+    background-color: turquoise;
+    border-radius: 100%;
+    width: 2vw;
+    height: 2vw;
+    text-align: center;
+    margin: 0 1%;
+}
+
+.bi-upload:hover{
+    color: turquoise;
+    background-color: black;
+    cursor: pointer;
+}
+
+.modal-content{
+    width: 60%;
+    margin: auto;
+}
+.goBack_b, .goToHome_b {
+    float: left;
+    width: 33%;
+  }
+  
+  .goBack_b {
+    background-color: aquamarine;
+    
+  }
+  
+  .goToHome_b {
+    background-color: aquamarine;
+  }
+
+.messagge{
+  font-size: larger;
+  text-shadow: 2px 2px 5px aquamarine;
+  text-align: center;
+/* color: rgb(127, 255, 212); */
+}
+/* a{
+  color: black;
+  text-decoration: auto;
+} */

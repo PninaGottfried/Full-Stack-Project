@@ -1,0 +1,17 @@
+.divglass {
+    height: 30vh;
+    width: 30vh;
+}
+.glasses-img{
+    height: 20vh;
+    width: 33vh;
+    margin-right: 5vh;
+}
+button:hover{
+    background-color: black;
+    color:white;
+}
+
+.glasses-cost{
+    text-align: center;
+}
